@@ -11,10 +11,10 @@ public class Booking {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int booking_id;
 
-    @ManyToOne
+    @ManyToOne(cascade=CascadeType.ALL)
     @JoinColumn(name = "user_id")
             private User user;
-    @ManyToOne
+    @ManyToOne(cascade=CascadeType.ALL)
     @JoinColumn(name = "movie_id")
     private Movie movie;
 

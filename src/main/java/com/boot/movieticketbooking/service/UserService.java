@@ -3,9 +3,10 @@ package com.boot.movieticketbooking.service;
 import com.boot.movieticketbooking.entity.User;
 import com.boot.movieticketbooking.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class UserService {
 
     @Autowired
