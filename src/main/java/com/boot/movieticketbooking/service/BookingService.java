@@ -1,6 +1,5 @@
 package com.boot.movieticketbooking.service;
 
-import com.boot.movieticketbooking.dto.BookingDto;
 import com.boot.movieticketbooking.entity.Booking;
 import com.boot.movieticketbooking.repository.BookingRepository;
 import org.springframework.beans.factory.annotation.Autowired;

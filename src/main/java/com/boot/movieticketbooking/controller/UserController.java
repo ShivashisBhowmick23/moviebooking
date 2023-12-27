@@ -1,8 +1,6 @@
 package com.boot.movieticketbooking.controller;
 
-import com.boot.movieticketbooking.entity.Booking;
 import com.boot.movieticketbooking.entity.User;
-import com.boot.movieticketbooking.service.BookingService;
 import com.boot.movieticketbooking.service.UserService;
 import com.boot.movieticketbooking.urls.URLConstants;
 import org.springframework.beans.factory.annotation.Autowired;

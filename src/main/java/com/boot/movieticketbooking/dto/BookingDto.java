@@ -1,10 +1,5 @@
 package com.boot.movieticketbooking.dto;
 
-import com.boot.movieticketbooking.entity.Booking;
-import com.boot.movieticketbooking.entity.Movie;
-import com.boot.movieticketbooking.entity.User;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
 import lombok.Data;
 import org.springframework.stereotype.Component;
 
