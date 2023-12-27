@@ -19,8 +19,10 @@ public class BookingController {
     private BookingDto mapToBookingDTO(Booking booking) {
         BookingDto bookingDto = new BookingDto();
         bookingDto.setBooking_id(booking.getBooking_id());
-        bookingDto.setMovie(booking.getMovie());
-        bookingDto.setUser(booking.getUser());
+        bookingDto.setMovie_name(booking.getMovie().getMovie_name());
+        bookingDto.setMovie_timings(booking.getMovie().getMovie_timings());
+        bookingDto.setUser_email(booking.getUser().getUser_email());
+        bookingDto.setUser_name(booking.getUser().getUser_name());
         bookingDto.setBookingTime(booking.getBookingTime());
         return bookingDto;
     }
